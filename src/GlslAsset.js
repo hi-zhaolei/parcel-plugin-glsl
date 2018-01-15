@@ -12,4 +12,6 @@ class GLslAsset extends Asset {
   }
 }
 
+GLslAsset.type = 'js'
+
 module.exports = GLslAsset;
