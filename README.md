@@ -7,5 +7,5 @@ Let parceljs know how to deal with glsl files.
 The plugin need node >= 8
 
 ```auto
-npm i parcel-plugin-glsl -D
+npm i https://github.com/hi-zhaolei/parcel-plugin-glsl.git -D
 ```

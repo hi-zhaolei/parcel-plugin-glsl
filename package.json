@@ -11,9 +11,9 @@
   },
   "homepage": "https://github.com/hi-zhaolei/parcel-plugin-glsl",
   "scripts": {
-    "pretest": "rm -rf .cache && rm -rf dist && DEBUG=\"parcel-plugin-glsl:*\"",
-    "test": "node test/index.js",
-    "clean": "npm run pretest"
+    "clean": "rm -rf .cache && rm -rf dist && DEBUG=\"parcel-plugin-glsl:*\"",
+    "pretest": "npm run clean",
+    "test": "node test/index.js"
   },
   "peerDependencies": {
     "parcel-bundler": "~1"
